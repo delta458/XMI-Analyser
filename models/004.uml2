@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmi:id="_gCoTAeMdEdykMOzSI1LSPQ" name="stragetyduck" appliedProfile="_gCoTA-MdEdykMOzSI1LSPQ _gCoTBuMdEdykMOzSI1LSPQ _gCoTCeMdEdykMOzSI1LSPQ">
+  <eAnnotations xmi:id="_gCoTAuMdEdykMOzSI1LSPQ" source="http://www.eclipse.org/emf/2002/Ecore"/>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_gCoTA-MdEdykMOzSI1LSPQ">
+    <eAnnotations xmi:id="_gCoTBOMdEdykMOzSI1LSPQ" source="attributes">
+      <details xmi:id="_gCoTBeMdEdykMOzSI1LSPQ" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_PROFILES/Basic.profile.uml2#_6mFRgK86Edih9-GG5afQ0g"/>
+    <importedProfile href="pathmap://UML2_PROFILES/Basic.profile.uml2#_6mFRgK86Edih9-GG5afQ0g"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_gCoTBuMdEdykMOzSI1LSPQ">
+    <eAnnotations xmi:id="_gCoTB-MdEdykMOzSI1LSPQ" source="attributes">
+      <details xmi:id="_gCoTCOMdEdykMOzSI1LSPQ" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_PROFILES/Intermediate.profile.uml2#_Cz7csK87Edih9-GG5afQ0g"/>
+    <importedProfile href="pathmap://UML2_PROFILES/Intermediate.profile.uml2#_Cz7csK87Edih9-GG5afQ0g"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_gCoTCeMdEdykMOzSI1LSPQ">
+    <eAnnotations xmi:id="_gCoTCuMdEdykMOzSI1LSPQ" source="attributes">
+      <details xmi:id="_gCoTC-MdEdykMOzSI1LSPQ" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_PROFILES/Complete.profile.uml2#_M7pTkK87Edih9-GG5afQ0g"/>
+    <importedProfile href="pathmap://UML2_PROFILES/Complete.profile.uml2#_M7pTkK87Edih9-GG5afQ0g"/>
+  </packageImport>
+  <packageImport xmi:id="_gCoTDOMdEdykMOzSI1LSPQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_EfRZoK86EdieaYgxtVWN8Q"/>
+  </packageImport>
+  <ownedMember xmi:type="uml:Package" xmi:id="_gCoTDeMdEdykMOzSI1LSPQ" name="Use Case View">
+    <ownedMember xmi:type="uml:Actor" xmi:id="_gCoTDuMdEdykMOzSI1LSPQ" name="DuckMonitor"/>
+    <ownedMember xmi:type="uml:UseCase" xmi:id="_gCoTD-MdEdykMOzSI1LSPQ" name="AnimateDuck" subject="_gCoTEOMdEdykMOzSI1LSPQ"/>
+    <ownedMember xmi:type="uml:Collaboration" xmi:id="_gCoTEOMdEdykMOzSI1LSPQ" name="AnimateDuck_Collaboration" useCase="_gCoTD-MdEdykMOzSI1LSPQ">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_gCoTEeMdEdykMOzSI1LSPQ" name="AnimateDuck">
+        <ownedConnector xmi:id="_gCoTEuMdEdykMOzSI1LSPQ">
+          <end xmi:id="_gCoTE-MdEdykMOzSI1LSPQ" role="_gCoTQeMdEdykMOzSI1LSPQ"/>
+          <end xmi:id="_gCoTFOMdEdykMOzSI1LSPQ" role="_gCoTQuMdEdykMOzSI1LSPQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_gCoTFeMdEdykMOzSI1LSPQ">
+          <end xmi:id="_gCoTFuMdEdykMOzSI1LSPQ" role="_gCoTQeMdEdykMOzSI1LSPQ"/>
+          <end xmi:id="_gCoTF-MdEdykMOzSI1LSPQ" role="_gCoTQeMdEdykMOzSI1LSPQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_gCoTGOMdEdykMOzSI1LSPQ">
+          <end xmi:id="_gCoTGeMdEdykMOzSI1LSPQ" role="_gCoTQuMdEdykMOzSI1LSPQ"/>
+          <end xmi:id="_gCoTGuMdEdykMOzSI1LSPQ" role="_gCoTROMdEdykMOzSI1LSPQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_gCoTG-MdEdykMOzSI1LSPQ">
+          <end xmi:id="_gCoTHOMdEdykMOzSI1LSPQ" role="_gCoTQ-MdEdykMOzSI1LSPQ"/>
+          <end xmi:id="_gCoTHeMdEdykMOzSI1LSPQ" role="_gCoTQeMdEdykMOzSI1LSPQ"/>
+        </ownedConnector>
+        <lifeline xmi:id="_gCoTHuMdEdykMOzSI1LSPQ" coveredBy="_gCoTLeMdEdykMOzSI1LSPQ" represents="_gCoTQ-MdEdykMOzSI1LSPQ"/>
+        <lifeline xmi:id="_gCoTH-MdEdykMOzSI1LSPQ" coveredBy="_gCoTLuMdEdykMOzSI1LSPQ _gCoTMOMdEdykMOzSI1LSPQ _gCoTNOMdEdykMOzSI1LSPQ _gCoTPOMdEdykMOzSI1LSPQ _gCoTQOMdEdykMOzSI1LSPQ" represents="_gCoTQeMdEdykMOzSI1LSPQ"/>
+        <lifeline xmi:id="_gCoTIOMdEdykMOzSI1LSPQ" coveredBy="_gCoTJ-MdEdykMOzSI1LSPQ _gCoTK-MdEdykMOzSI1LSPQ _gCoTMeMdEdykMOzSI1LSPQ _gCoTM-MdEdykMOzSI1LSPQ _gCoTNeMdEdykMOzSI1LSPQ _gCoTN-MdEdykMOzSI1LSPQ _gCoTO-MdEdykMOzSI1LSPQ _gCoTPeMdEdykMOzSI1LSPQ _gCoTP-MdEdykMOzSI1LSPQ" represents="_gCoTQuMdEdykMOzSI1LSPQ"/>
+        <lifeline xmi:id="_gCoTIeMdEdykMOzSI1LSPQ" coveredBy="_gCoTKeMdEdykMOzSI1LSPQ _gCoTLOMdEdykMOzSI1LSPQ _gCoTOOMdEdykMOzSI1LSPQ _gCoTOuMdEdykMOzSI1LSPQ" represents="_gCoTROMdEdykMOzSI1LSPQ"/>
+        <message xmi:id="_gCoTIuMdEdykMOzSI1LSPQ" name="setFlyBehavior( )" receiveEvent="_gCoTMeMdEdykMOzSI1LSPQ" sendEvent="_gCoTMOMdEdykMOzSI1LSPQ" connector="_gCoTEuMdEdykMOzSI1LSPQ" signature="_gCoTT-MdEdykMOzSI1LSPQ"/>
+        <message xmi:id="_gCoTI-MdEdykMOzSI1LSPQ" name="performFly( )" receiveEvent="_gCoTNeMdEdykMOzSI1LSPQ" sendEvent="_gCoTNOMdEdykMOzSI1LSPQ" connector="_gCoTEuMdEdykMOzSI1LSPQ" signature="_gCoTUOMdEdykMOzSI1LSPQ"/>
+        <message xmi:id="_gCoTJOMdEdykMOzSI1LSPQ" name="swim( )" receiveEvent="_gCoTPeMdEdykMOzSI1LSPQ" sendEvent="_gCoTPOMdEdykMOzSI1LSPQ" connector="_gCoTEuMdEdykMOzSI1LSPQ" signature="_gCoTUeMdEdykMOzSI1LSPQ"/>
+        <message xmi:id="_gCoTJeMdEdykMOzSI1LSPQ" name="fly( )" receiveEvent="_gCoTOOMdEdykMOzSI1LSPQ" sendEvent="_gCoTN-MdEdykMOzSI1LSPQ" connector="_gCoTGOMdEdykMOzSI1LSPQ" signature="_gCoTYOMdEdykMOzSI1LSPQ"/>
+        <message xmi:id="_gCoTJuMdEdykMOzSI1LSPQ" name="animateDuck( )" receiveEvent="_gCoTLuMdEdykMOzSI1LSPQ" sendEvent="_gCoTLeMdEdykMOzSI1LSPQ" connector="_gCoTG-MdEdykMOzSI1LSPQ" signature="_gCoTaeMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTJ-MdEdykMOzSI1LSPQ" covered="_gCoTIOMdEdykMOzSI1LSPQ" startExec="_gCoTKOMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrence" xmi:id="_gCoTKOMdEdykMOzSI1LSPQ" start="_gCoTJ-MdEdykMOzSI1LSPQ" finish="_gCoTK-MdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTKeMdEdykMOzSI1LSPQ" covered="_gCoTIeMdEdykMOzSI1LSPQ" startExec="_gCoTKuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrence" xmi:id="_gCoTKuMdEdykMOzSI1LSPQ" start="_gCoTKeMdEdykMOzSI1LSPQ" finish="_gCoTLOMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTK-MdEdykMOzSI1LSPQ" covered="_gCoTIOMdEdykMOzSI1LSPQ" finishExec="_gCoTKOMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTLOMdEdykMOzSI1LSPQ" covered="_gCoTIeMdEdykMOzSI1LSPQ" finishExec="_gCoTKuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTLeMdEdykMOzSI1LSPQ" covered="_gCoTHuMdEdykMOzSI1LSPQ" sendMessage="_gCoTJuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTLuMdEdykMOzSI1LSPQ" covered="_gCoTH-MdEdykMOzSI1LSPQ" receiveMessage="_gCoTJuMdEdykMOzSI1LSPQ" startExec="_gCoTL-MdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrence" xmi:id="_gCoTL-MdEdykMOzSI1LSPQ" start="_gCoTLuMdEdykMOzSI1LSPQ" finish="_gCoTQOMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTMOMdEdykMOzSI1LSPQ" covered="_gCoTH-MdEdykMOzSI1LSPQ" sendMessage="_gCoTIuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTMeMdEdykMOzSI1LSPQ" covered="_gCoTIOMdEdykMOzSI1LSPQ" receiveMessage="_gCoTIuMdEdykMOzSI1LSPQ" startExec="_gCoTMuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrence" xmi:id="_gCoTMuMdEdykMOzSI1LSPQ" start="_gCoTMeMdEdykMOzSI1LSPQ" finish="_gCoTM-MdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTM-MdEdykMOzSI1LSPQ" covered="_gCoTIOMdEdykMOzSI1LSPQ" finishExec="_gCoTMuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTNOMdEdykMOzSI1LSPQ" covered="_gCoTH-MdEdykMOzSI1LSPQ" sendMessage="_gCoTI-MdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTNeMdEdykMOzSI1LSPQ" covered="_gCoTIOMdEdykMOzSI1LSPQ" receiveMessage="_gCoTI-MdEdykMOzSI1LSPQ" startExec="_gCoTNuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrence" xmi:id="_gCoTNuMdEdykMOzSI1LSPQ" start="_gCoTNeMdEdykMOzSI1LSPQ" finish="_gCoTO-MdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTN-MdEdykMOzSI1LSPQ" covered="_gCoTIOMdEdykMOzSI1LSPQ" sendMessage="_gCoTJeMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTOOMdEdykMOzSI1LSPQ" covered="_gCoTIeMdEdykMOzSI1LSPQ" receiveMessage="_gCoTJeMdEdykMOzSI1LSPQ" startExec="_gCoTOeMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrence" xmi:id="_gCoTOeMdEdykMOzSI1LSPQ" start="_gCoTOOMdEdykMOzSI1LSPQ" finish="_gCoTOuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTOuMdEdykMOzSI1LSPQ" covered="_gCoTIeMdEdykMOzSI1LSPQ" finishExec="_gCoTOeMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTO-MdEdykMOzSI1LSPQ" covered="_gCoTIOMdEdykMOzSI1LSPQ" finishExec="_gCoTNuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTPOMdEdykMOzSI1LSPQ" covered="_gCoTH-MdEdykMOzSI1LSPQ" sendMessage="_gCoTJOMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTPeMdEdykMOzSI1LSPQ" covered="_gCoTIOMdEdykMOzSI1LSPQ" receiveMessage="_gCoTJOMdEdykMOzSI1LSPQ" startExec="_gCoTPuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrence" xmi:id="_gCoTPuMdEdykMOzSI1LSPQ" start="_gCoTPeMdEdykMOzSI1LSPQ" finish="_gCoTP-MdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTP-MdEdykMOzSI1LSPQ" covered="_gCoTIOMdEdykMOzSI1LSPQ" finishExec="_gCoTPuMdEdykMOzSI1LSPQ"/>
+        <fragment xmi:type="uml:EventOccurrence" xmi:id="_gCoTQOMdEdykMOzSI1LSPQ" covered="_gCoTH-MdEdykMOzSI1LSPQ" finishExec="_gCoTL-MdEdykMOzSI1LSPQ"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_gCoTQeMdEdykMOzSI1LSPQ" type="_gCoTZ-MdEdykMOzSI1LSPQ" end="_gCoTE-MdEdykMOzSI1LSPQ _gCoTFuMdEdykMOzSI1LSPQ _gCoTF-MdEdykMOzSI1LSPQ _gCoTHeMdEdykMOzSI1LSPQ"/>
+      <ownedAttribute xmi:id="_gCoTQuMdEdykMOzSI1LSPQ" type="_gCoTS-MdEdykMOzSI1LSPQ" end="_gCoTGeMdEdykMOzSI1LSPQ _gCoTFOMdEdykMOzSI1LSPQ"/>
+      <ownedAttribute xmi:id="_gCoTQ-MdEdykMOzSI1LSPQ" type="_gCoTDuMdEdykMOzSI1LSPQ" end="_gCoTHOMdEdykMOzSI1LSPQ"/>
+      <ownedAttribute xmi:id="_gCoTROMdEdykMOzSI1LSPQ" type="_gCoTX-MdEdykMOzSI1LSPQ" end="_gCoTGuMdEdykMOzSI1LSPQ"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Association" xmi:id="_gCoTReMdEdykMOzSI1LSPQ" memberEnd="_gCoTRuMdEdykMOzSI1LSPQ _gCoTTOMdEdykMOzSI1LSPQ">
+      <ownedEnd xmi:id="_gCoTRuMdEdykMOzSI1LSPQ" name="_duck" type="_gCoTS-MdEdykMOzSI1LSPQ" isUnique="false" association="_gCoTReMdEdykMOzSI1LSPQ"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Association" xmi:id="_gCoTR-MdEdykMOzSI1LSPQ" memberEnd="_gCoTSOMdEdykMOzSI1LSPQ _gCoTSeMdEdykMOzSI1LSPQ">
+      <ownedEnd xmi:id="_gCoTSOMdEdykMOzSI1LSPQ" name="_animateDuck" type="_gCoTD-MdEdykMOzSI1LSPQ" isUnique="false" association="_gCoTR-MdEdykMOzSI1LSPQ"/>
+      <ownedEnd xmi:id="_gCoTSeMdEdykMOzSI1LSPQ" name="_duckMonitor" type="_gCoTDuMdEdykMOzSI1LSPQ" isUnique="false" association="_gCoTR-MdEdykMOzSI1LSPQ"/>
+    </ownedMember>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Package" xmi:id="_gCoTSuMdEdykMOzSI1LSPQ" name="Logical View">
+    <ownedMember xmi:type="uml:Class" xmi:id="_gCoTS-MdEdykMOzSI1LSPQ" name="Duck" isAbstract="true">
+      <ownedAttribute xmi:id="_gCoTTOMdEdykMOzSI1LSPQ" name="_animateDuck" type="_gCoTD-MdEdykMOzSI1LSPQ" isUnique="false" association="_gCoTReMdEdykMOzSI1LSPQ"/>
+      <ownedAttribute xmi:id="_gCoTTeMdEdykMOzSI1LSPQ" name="flyBehavior" visibility="private"/>
+      <ownedAttribute xmi:id="_gCoTTuMdEdykMOzSI1LSPQ" name="_flyBehavoir" type="_gCoTX-MdEdykMOzSI1LSPQ" isUnique="false" association="_gCoTbOMdEdykMOzSI1LSPQ"/>
+      <ownedOperation xmi:id="_gCoTT-MdEdykMOzSI1LSPQ" name="setFlyBehavior"/>
+      <ownedOperation xmi:id="_gCoTUOMdEdykMOzSI1LSPQ" name="performFly"/>
+      <ownedOperation xmi:id="_gCoTUeMdEdykMOzSI1LSPQ" name="swim"/>
+      <ownedOperation xmi:id="_gCoTUuMdEdykMOzSI1LSPQ" name="display" isAbstract="true"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Class" xmi:id="_gCoTU-MdEdykMOzSI1LSPQ" name="MallardDuck">
+      <generalization xmi:id="_gCoTVOMdEdykMOzSI1LSPQ" general="_gCoTS-MdEdykMOzSI1LSPQ"/>
+      <ownedOperation xmi:id="_gCoTVeMdEdykMOzSI1LSPQ" name="display"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Class" xmi:id="_gCoTVuMdEdykMOzSI1LSPQ" name="RubberDuck">
+      <generalization xmi:id="_gCoTV-MdEdykMOzSI1LSPQ" general="_gCoTS-MdEdykMOzSI1LSPQ"/>
+      <ownedOperation xmi:id="_gCoTWOMdEdykMOzSI1LSPQ" name="display"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Class" xmi:id="_gCoTWeMdEdykMOzSI1LSPQ" name="RedheadDuck">
+      <generalization xmi:id="_gCoTWuMdEdykMOzSI1LSPQ" general="_gCoTS-MdEdykMOzSI1LSPQ"/>
+      <ownedOperation xmi:id="_gCoTW-MdEdykMOzSI1LSPQ" name="display"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Class" xmi:id="_gCoTXOMdEdykMOzSI1LSPQ" name="DecoyDuck">
+      <generalization xmi:id="_gCoTXeMdEdykMOzSI1LSPQ" general="_gCoTS-MdEdykMOzSI1LSPQ"/>
+      <ownedOperation xmi:id="_gCoTXuMdEdykMOzSI1LSPQ" name="display"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Interface" xmi:id="_gCoTX-MdEdykMOzSI1LSPQ" name="FlyBehavoir">
+      <ownedOperation xmi:id="_gCoTYOMdEdykMOzSI1LSPQ" name="fly"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Class" xmi:id="_gCoTYeMdEdykMOzSI1LSPQ" name="FlyWithWings" clientDependency="_gCoTY-MdEdykMOzSI1LSPQ">
+      <ownedOperation xmi:id="_gCoTYuMdEdykMOzSI1LSPQ" name="fly"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Realization" xmi:id="_gCoTY-MdEdykMOzSI1LSPQ" client="_gCoTYeMdEdykMOzSI1LSPQ" supplier="_gCoTX-MdEdykMOzSI1LSPQ" realizingClassifier="_gCoTX-MdEdykMOzSI1LSPQ"/>
+    <ownedMember xmi:type="uml:Class" xmi:id="_gCoTZOMdEdykMOzSI1LSPQ" name="FlyNoWay" clientDependency="_gCoTZuMdEdykMOzSI1LSPQ">
+      <ownedOperation xmi:id="_gCoTZeMdEdykMOzSI1LSPQ" name="fly"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Realization" xmi:id="_gCoTZuMdEdykMOzSI1LSPQ" client="_gCoTZOMdEdykMOzSI1LSPQ" supplier="_gCoTX-MdEdykMOzSI1LSPQ" realizingClassifier="_gCoTX-MdEdykMOzSI1LSPQ"/>
+    <ownedMember xmi:type="uml:Class" xmi:id="_gCoTZ-MdEdykMOzSI1LSPQ" name="DuckSystem">
+      <ownedAttribute xmi:id="_gCoTaOMdEdykMOzSI1LSPQ" name="_duck" type="_gCoTS-MdEdykMOzSI1LSPQ" isUnique="false" association="_gCoTauMdEdykMOzSI1LSPQ"/>
+      <ownedOperation xmi:id="_gCoTaeMdEdykMOzSI1LSPQ" name="animateDuck"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Association" xmi:id="_gCoTauMdEdykMOzSI1LSPQ" memberEnd="_gCoTaOMdEdykMOzSI1LSPQ _gCoTa-MdEdykMOzSI1LSPQ">
+      <ownedEnd xmi:id="_gCoTa-MdEdykMOzSI1LSPQ" name="_duckSystem" type="_gCoTZ-MdEdykMOzSI1LSPQ" isUnique="false" association="_gCoTauMdEdykMOzSI1LSPQ"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Association" xmi:id="_gCoTbOMdEdykMOzSI1LSPQ" memberEnd="_gCoTTuMdEdykMOzSI1LSPQ _gCoTbeMdEdykMOzSI1LSPQ">
+      <ownedEnd xmi:id="_gCoTbeMdEdykMOzSI1LSPQ" name="_duck" type="_gCoTS-MdEdykMOzSI1LSPQ" isUnique="false" association="_gCoTbOMdEdykMOzSI1LSPQ"/>
+    </ownedMember>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Package" xmi:id="_gCoTbuMdEdykMOzSI1LSPQ" name="Component View" clientDependency="_gCoTb-MdEdykMOzSI1LSPQ">
+    <ownedMember xmi:type="uml:Abstraction" xmi:id="_gCoTb-MdEdykMOzSI1LSPQ" client="_gCoTbuMdEdykMOzSI1LSPQ" supplier="_gCoTSuMdEdykMOzSI1LSPQ"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Package" xmi:id="_gCoTcOMdEdykMOzSI1LSPQ" name="Deployment View"/>
+</uml:Model>
