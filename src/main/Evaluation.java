@@ -17,7 +17,10 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import parser.ZargoUMLParser;
+import parser.XMI1_2Parser;
+import parser.XMI2_0Parser;
+import parser.XMI2_1Parser;
+
 
 /**
  * This class checks which Parser should be initiated based on the xmi-format.
@@ -49,24 +52,41 @@ public class Evaluation {
 			doc.getDocumentElement().normalize();
 
 			NodeList nodeLst = doc.getElementsByTagName("*");
-			
-			Node fstNode = nodeLst.item(1);
-			System.out.println(fstNode.getNodeName());
-			if(fstNode.getNodeName().startsWith("XMI") || fstNode.getNodeName().startsWith("argo")) {
-				ZargoUMLParser zup = new ZargoUMLParser();
-				zup.init();
-			} else if (fstNode.getNodeName().startsWith("uml")) {
-				System.out.println("EMX!");
-			}  else if (fstNode.getNodeName().startsWith("xmi")) {
-				System.out.println("MDXMI!");
-			} else if (fstNode.getNodeName().startsWith("eAnnotations")) {
-				System.out.println("UML2!");
-			} else if (fstNode.getNodeName().startsWith("eAnnotations")) {
-				System.out.println("UML2!");
-			} 
 
-			
+			//Iterate through nodeList and search for xmi.version
+			//If found, start the parser and go to next file
 
+
+			for (int s = 0; s < nodeLst.getLength(); s++) {
+				Node fstNode = nodeLst.item(s);
+
+				if(fstNode.hasAttributes() && fstNode.getAttributes().getLength() > 1) {
+					
+					Node xmiVersion;
+					
+					if(file.getName().contains("uml2") || file.getName().contains("emx") || file.getName().contains("mdxml")) {
+						xmiVersion = fstNode.getAttributes().getNamedItem("xmi:version");
+					} else {
+						xmiVersion = fstNode.getAttributes().getNamedItem("xmi.version");
+					}
+
+					if(!fstNode.getNodeName().contains("meta") && xmiVersion != null) {
+						if(xmiVersion.getTextContent().equals("1.2")) {
+							XMI1_2Parser parser = new XMI1_2Parser();
+							parser.init();
+						} else if (xmiVersion.getTextContent().equals("2.0")) {
+							XMI2_0Parser parser2 = new XMI2_0Parser();
+							parser2.init();
+						} else if (xmiVersion.getTextContent().equals("2.1")) {
+							XMI2_1Parser parser3 = new XMI2_1Parser();
+							parser3.init();
+						} else {
+							System.out.println("Unknown version! " + xmiVersion.getTextContent());
+						}
+					}
+				}
+
+			}
 
 		}
 		writer.flush();
