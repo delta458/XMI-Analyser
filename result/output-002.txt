@@ -1,0 +1,11 @@
+UML:Association=1
+UML:Interface=14
+UML:Multiplicity=2
+UML:Generalization=2
+UML:Operation=6
+UML:AssociationEnd=2
+UML:MultiplicityRange=2
+UML:Dependency=2
+UML:Package=2
+UML:Model=1
+UML:Parameter=6

@@ -1,0 +1,7 @@
+UML:TagDefinition=6
+UML:Multiplicity=3
+UML:TaggedValue=3
+UML:MultiplicityRange=3
+UML:Class=2
+UML:Package=1
+UML:Model=1

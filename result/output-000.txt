@@ -1,0 +1,10 @@
+UML:Association=3
+UML:Multiplicity=22
+UML:Operation=18
+UML:AssociationEnd=6
+UML:DataType=17
+UML:MultiplicityRange=22
+UML:Class=23
+UML:Model=1
+UML:Attribute=22
+UML:Parameter=24
