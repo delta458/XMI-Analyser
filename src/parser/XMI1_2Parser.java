@@ -23,14 +23,12 @@ public class XMI1_2Parser extends XMIParser {
 			if (fstNode.getNodeType() == Node.ELEMENT_NODE) {
 				if(fstNode.getNodeName().startsWith("UML:") && !fstNode.getNodeName().contains(".")) {
 					
-					
-					
 					if (result.containsKey(fstNode.getNodeName())) {
 						result.put(fstNode.getNodeName(), result.get(fstNode.getNodeName())+1);
 					} else {
 						result.put(fstNode.getNodeName(), 1);
 					}
-				//	System.out.println(fstNode.getNodeName());
+				
 				}
 			}
 

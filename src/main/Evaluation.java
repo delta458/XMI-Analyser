@@ -39,9 +39,12 @@ public class Evaluation {
 			System.out.println(file.getName());
 
 			String outputFilename = "result/output-" + file.getName();
-			File summary = new File(outputFilename.replace(outputFilename.substring(outputFilename.indexOf(".")),".txt"));
+			File summary = new File(outputFilename.replace(".", "_")+".txt");
 			
-			summary.delete();
+			if(summary.exists()) {
+				summary.delete();
+			}
+			
 			summary.createNewFile();
 			FileWriter writer = new FileWriter(summary, true);
 
